@@ -8,6 +8,6 @@ class Solution:
                 sum_double_digit += num
             else:
                 sum_single_digit += num
-        return True if abs(sum_single_digit - sum_double_digit) != 0 else False
+        return  abs(sum_single_digit - sum_double_digit) != 0 
 
             
